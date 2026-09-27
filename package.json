@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-doodle",
+  "private": true,
+  "description": "A doodled planner on dot-grid paper: inkwell navy, coral emphasis, mint badges, butter highlights and headlines tracked open like hand lettering.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
